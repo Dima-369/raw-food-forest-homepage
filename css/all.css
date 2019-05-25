@@ -270,7 +270,7 @@ nav {
 }
 
 #bgHeader {
-	background-image: url("../img/natura.jpg");
+	background-image: url("../img/header.jpg");
 	background-size: cover;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -280,7 +280,7 @@ nav {
 }
 
 #bgHeader #logo {
-	opacity: 0.85;
+	opacity: 0.9;
 	width: 75%;
 	max-height: 200px;
 }
