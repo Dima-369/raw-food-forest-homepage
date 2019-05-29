@@ -271,16 +271,15 @@ nav {
 
 #bgHeader {
 	background-image: url("../img/header.jpg");
-	background-size: cover;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	margin-bottom: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100vh;
 	color: white;
 	text-align: center;
 }
 
 #bgHeader #logo {
-	opacity: 0.9;
+	opacity: 0.75;
 	width: 75%;
 	max-height: 200px;
 }
