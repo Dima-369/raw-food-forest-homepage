@@ -124,7 +124,7 @@ nav {
 }
 
 .flexGalleryCell3x {
-	width: calc(100%/3)
+	width: calc(100% / 3)
 }
 
 .flexGalleryCell3x img {
@@ -269,22 +269,27 @@ nav {
 	text-align: center;
 }
 
-#bgHeader {
-	background-image: url("../img/header.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	height: 100vh;
-	color: white;
-	text-align: center;
+#headerLarge {
+	width: 100%;
 }
 
-#bgHeader #logo {
-	opacity: 0.75;
-	width: 75%;
-	max-height: 200px;
+#logoContainer {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 25%;
 }
 
-#bgHeader #logo:hover {
+header #logo {
+	display: block;
+	opacity: 0.8;
+	margin: 0 auto;
+	max-width: 75%;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(3px 3px 3px #222);
+}
+
+header #logo:hover {
 	opacity: 1.0;
 }
 
