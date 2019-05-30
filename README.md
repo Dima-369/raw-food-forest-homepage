@@ -18,7 +18,7 @@ The HTML files are also uploaded to make use of GitHub Pages.
 
 The font in the top logo is Gabriola.
 
-The email vector icon is from www.materialdesignicons.com
+The vector icons in the footer are all from www.materialdesignicons.com
 
 #### Open Source and Permaculture
 
