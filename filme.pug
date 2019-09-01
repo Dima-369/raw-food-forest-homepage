@@ -1,0 +1,19 @@
+doctype html
+head(lang="de")
+    meta(name="description" content="Filme über uns")
+    title Filme - Raw Food Forest
+    include includes/head
+body
+    include includes/header
+    nav
+        div#navGrid
+            div
+                div.navCell: a(href="index.html") Home
+                div.navCell: a(href="galerie.html") Galerie
+                div.navCellActive: a(href="filme.html") Filme
+                div.navCell: a(href="produkte-verarbeitung.html") Produkte & Verarbeitung
+                div.navCell: a(href="workshop-retreat.html") Workshop & Retreat
+article#filme
+    .youtubeContainer
+        iframe.youtube(src='https://www.youtube.com/embed/iCpzXhI4lHo' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')
+include includes/footer
